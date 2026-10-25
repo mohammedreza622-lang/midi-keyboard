@@ -1,0 +1,118 @@
+** Drc report for midi_keypad.kicad_pcb **
+** Created on 2026-10-25T21:57:59 **
+** Report includes: Errors, Warnings **
+
+** Found 17 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(49.5250 mm, 92.7500 mm): Segment of D1 on Edge.Cuts
+    @(48.5000 mm, 93.5000 mm): Pad 1 [GND] of D1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(49.5250 mm, 92.7500 mm): Segment of D1 on Edge.Cuts
+    @(48.5000 mm, 92.0000 mm): Pad 2 [/LED] of D1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(52.5422 mm, 91.6328 mm): Arc of D1 on Edge.Cuts
+    @(53.9500 mm, 92.0000 mm): Pad 3 [+5V] of D1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(52.5422 mm, 93.8672 mm): Arc of D1 on Edge.Cuts
+    @(53.9500 mm, 93.5000 mm): Pad 4 [Net-(D1-DOUT)] of D1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3154 mm)
+    Rule: board setup constraints edge; error
+    @(49.2250 mm, 98.3204 mm): Arc of D2 on Edge.Cuts
+    @(48.5000 mm, 98.3700 mm): Pad 1 [GND] of D2 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3154 mm)
+    Rule: board setup constraints edge; error
+    @(49.2250 mm, 96.9196 mm): Arc of D2 on Edge.Cuts
+    @(48.5000 mm, 96.8700 mm): Pad 2 [Net-(D1-DOUT)] of D2 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(52.5422 mm, 96.5028 mm): Arc of D2 on Edge.Cuts
+    @(53.9500 mm, 96.8700 mm): Pad 3 [+5V] of D2 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3154 mm)
+    Rule: board setup constraints edge; error
+    @(53.2250 mm, 98.3204 mm): Arc of D2 on Edge.Cuts
+    @(53.9500 mm, 98.3700 mm): Pad 4 [Net-(D2-DOUT)] of D2 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(49.5250 mm, 102.4900 mm): Segment of D3 on Edge.Cuts
+    @(48.5000 mm, 103.2400 mm): Pad 1 [GND] of D3 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
+    Rule: board setup constraints edge; error
+    @(49.5250 mm, 102.4900 mm): Segment of D3 on Edge.Cuts
+    @(48.5000 mm, 101.7400 mm): Pad 2 [Net-(D2-DOUT)] of D3 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(52.5422 mm, 101.3728 mm): Arc of D3 on Edge.Cuts
+    @(53.9500 mm, 101.7400 mm): Pad 3 [+5V] of D3 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2467 mm)
+    Rule: board setup constraints edge; error
+    @(52.5422 mm, 103.6072 mm): Arc of D3 on Edge.Cuts
+    @(53.9500 mm, 103.2400 mm): Pad 4 [unconnected-(D3-DOUT-Pad4)] of D3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.5538 mm, 177.4800 mm): Reference field of U1
+    @(133.0250 mm, 157.2500 mm): Pad 5 [/TOUCH5] of J2 on F.Cu
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; warning
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; warning
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; warning
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; warning
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.4800 mm, 85.2500 mm): PTH pad 1 [+3.3V] of RV1
+    @(58.4800 mm, 97.3500 mm): PTH pad 1 [+3.3V] of RV2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.4800 mm, 85.2500 mm): PTH pad 1 [+3.3V] of RV1
+    @(92.5250 mm, 91.2700 mm): Track [+3.3V] on F.Cu, length 1.0250 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.4800 mm, 100.8500 mm): PTH pad 2 [/SLIDE2] of RV2
+    @(100.8000 mm, 95.0800 mm): Pad 21 [/SLIDE2] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.5500 mm, 119.5000 mm): PTH pad 2 [/SWITCH3] of SW3
+    @(100.8000 mm, 100.1600 mm): Pad 17 [/SWITCH3] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.4800 mm, 88.7500 mm): PTH pad 2 [/SLIDE1] of RV1
+    @(100.8000 mm, 96.3500 mm): Pad 20 [/SLIDE1] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 98.8900 mm): Pad 18 [/ENC1_A] of U2 on F.Cu
+    @(107.7500 mm, 110.5000 mm): PTH pad A [/ENC1_A] of SW4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 97.6200 mm): Pad 19 [/ENC1_B] of U2 on F.Cu
+    @(107.7500 mm, 115.5000 mm): PTH pad B [/ENC1_B] of SW4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.5000 mm, 92.0000 mm): Pad 2 [/LED] of D1 on F.Cu
+    @(100.8000 mm, 93.8100 mm): Pad 22 [/LED] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.5000 mm, 96.8700 mm): Pad 2 [Net-(D1-DOUT)] of D2 on F.Cu
+    @(53.9500 mm, 93.5000 mm): Pad 4 [Net-(D1-DOUT)] of D1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.5000 mm, 101.7400 mm): Pad 2 [Net-(D2-DOUT)] of D3 on F.Cu
+    @(53.9500 mm, 98.3700 mm): Pad 4 [Net-(D2-DOUT)] of D2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
